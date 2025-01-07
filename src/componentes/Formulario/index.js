@@ -5,16 +5,7 @@ import Botao from '../Botao';
 import './Formulario.css';
 
 const Formulario = (props) => {
-    const times = [
-        'Programação',
-        'Front-End',
-        'Data Science',
-        'Devops',
-        'UX e Design',
-        'Mobile',
-        ' Inovação e Gestão'
-    ]
-
+    
     const aoSalvar = (event) => {
         event.preventDefault()
         props.aoColaboradorCadastrado ({
@@ -64,7 +55,7 @@ const Formulario = (props) => {
                 <ListaSuspensa 
                 label="Qual é o seu time?" 
                 idcampo="times" 
-                itens={times} 
+                itens={props.times} 
                 obrigatorio={true} 
                 aoAlterado={valor => setTime(valor)}
                 valor={time}
