@@ -1,71 +1,83 @@
-# Getting Started with Create React App
+ # Organo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto, desenvolvido passo a passo no treinamento de react da escola de tecnologia Alura, visa efetuar um cadastro de colaboradores dentro de um time selecionado. Nesse projeto foram utilizadas as melhores práticas de desenvolvimento em react.
 
-## Available Scripts
+## Instalação
 
-In the project directory, you can run:
+Siga os passos abaixo para instalar e configurar o projeto em sua máquina local.
 
-### `npm start`
+### Pré-requisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js (versão 20.11.1)
+- npm (versão 10.2.4) ou 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Passos para Instalação
 
-### `npm test`
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/alexatp/organo.git
+   ```
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd nome-do-repositorio
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+   ou
+   ```bash
+   yarn install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Uso
 
-### `npm run build`
+Para iniciar a aplicação, execute o comando abaixo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm start
+```
+ou
+```bash
+yarn start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A aplicação estará disponível em `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Funcionalidades
 
-### `npm run eject`
+- **Adicionar Colaboradores**: Permite adicionar novos colaboradores à lista.
+- **Visualizar Times**: Exibe os times com suas respectivas cores primárias e secundárias.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Estrutura do Projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+App.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+: Componente principal da aplicação.
+- `src/components/Banner.js`: Componente de banner.
+- `src/components/Formulario.js`: Componente de formulário para adicionar colaboradores.
+- `src/components/Time.js`: Componente para exibir informações dos times.
 
-## Learn More
+## Contribuição
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`).
+3. Commit suas mudanças (`git commit -am 'Adiciona nova feature'`).
+4. Faça push para a branch (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Licença
 
-### Code Splitting
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contato
 
-### Analyzing the Bundle Size
+- Nome: Alexandre Teixeira
+- Email: alextp@gmail.com
+- GitHub: [alexatp](https://github.com/alexatp)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# organo" 
+Este README fornece uma visão geral do
