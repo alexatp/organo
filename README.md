@@ -79,5 +79,3 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para m
 - GitHub: [alexatp](https://github.com/alexatp)
 
 
-
-Este README fornece uma visão geral do
